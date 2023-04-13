@@ -1,7 +1,7 @@
 {
   "generic": {
     "language": "en_us",
-    "botToken": "Nzk4Njk1MDkyMTM4OTM0Mjgy.GemMUJ.i7H5jm2x3Cj6uLrdkf2gRrqPdFaZ7fZwYrGqKk",
+    "botToken": "SECRET",
     "botPlayingStatus": "in Rex SMP (Online : %onlinePlayerCount%/%maxPlayerCount%)",
     "botListeningStatus": "",
     "webhookUrl": "https://discord.com/api/webhooks/924609845930360872/uqzLO9heg51YvxLTWaOQRrFoFENMHhjK8Lay4bkMHceILD3r7Wu6MM6We_H5Uu6hRZRu",
