@@ -1,0 +1,73 @@
+{
+  "generic": {
+    "language": "en_us",
+    "botToken": "SECRET",
+    "botPlayingStatus": "in Rex SMP (Online : %onlinePlayerCount%/%maxPlayerCount%)",
+    "botListeningStatus": "",
+    "webhookUrl": "https://discord.com/api/webhooks/924609845930360872/uqzLO9heg51YvxLTWaOQRrFoFENMHhjK8Lay4bkMHceILD3r7Wu6MM6We_H5Uu6hRZRu",
+    "channelId": "924609769329790976",
+    "consoleLogChannelId": "1069519088466010112",
+    "updateNotificationChannelId": "1069519088466010112",
+    "useUuidInsteadOfName": false,
+    "avatarApi": "https://raw.githubusercontent.com/rayhanhamada93/rexskinstorageprivateforskinloader/main/Server/Discord-Icon2/%player%.png",
+    "broadcastPlayerCommandExecution": false,
+    "broadcastSlashCommandExecution": false,
+    "announceServerStartStop": true,
+    "announcePlayerJoinLeave": true,
+    "announceDeathMessages": true,
+    "announceAdvancements": true,
+    "broadcastChatMessages": true,
+    "formatChatMessages": true,
+    "allowMentions": true,
+    "useServerNickname": true,
+    "discordNewlineLimit": 3,
+    "announceHighMspt": true,
+    "msptCheckInterval": 10000,
+    "msptLimit": 70,
+    "notifyUpdates": true,
+    "mentionAdminsForUpdates": true,
+    "updateChannelTopic": true,
+    "channelTopicUpdateInterval": 600000,
+    "excludedCommands": [
+      "/msg",
+      "/tell",
+      "/tellraw",
+      "/w",
+      "/"
+    ],
+    "adminsIds": [
+      "646814330465157151"
+    ]
+  },
+  "multiServer": {
+    "enable": false,
+    "host": "127.0.0.1",
+    "port": 5000,
+    "name": "SMP",
+    "botIds": []
+  },
+  "customMessage": {
+    "unformattedResponseMessage": "",
+    "unformattedChatMessage": "",
+    "unformattedOtherMessage": "",
+    "unformattedCommandNotice": "",
+    "formattedResponseMessage": "[{\"text\":\"Replying To : \",\"bold\":true,\"color\":\"gray\",\"italic\":true},{\"text\":\"<%name%> \",\"bold\":false,\"color\":\"%roleColor%\",\"italic\":true},{\"text\":\"%message%\",\"bold\":false,\"color\":\"gray\"}]",
+    "formattedChatMessage": "[{\"text\":\"<%name%>\",\"bold\":false,\"color\":\"%roleColor%\",\"italic\":false},{\"text\":\" %message%\",\"bold\":false,\"color\":\"gray\"}]",
+    "formattedOtherMessage": "",
+    "formattedCommandNotice": "",
+    "serverStarted": "<a:check_box:1077406953996820581>**Server Started!**",
+    "serverStopped": "<a:denied_box:1077406936112320612>**Server Stopped!**",
+    "joinServer": "<:join:1077537158258237490>**%playerName% joined the game**",
+    "leftServer": "<:leave:1077534982232346634>**%playerName% left the game**",
+    "deathMessage": "<:cute_rip:1077396900724084757>**%deathMessage%**",
+    "advancementTask": "<a:silver_medal:1077396782058848276>**%playerName% has made the advancement [%advancement%]**",
+    "advancementGoal": "<a:gold_medal:1077396816540217344>**%playerName% has reached the goal [%advancement%]**",
+    "advancementChallenge": "<a:gold_medal:1077396816540217344>**%playerName% has completed the challenge [%advancement%]**",
+    "highMspt": "<:warning:1077539105698742282>**The server is lagging! (MSPT : %mspt%)**",
+    "offlineChannelTopic": ":x: Server offline | Last updated: <t:%lastUpdateTime%:R>",
+    "onlineChannelTopic": ":white_check_mark: Player(s) online: %onlinePlayerCount%/%maxPlayerCount% | Total Member: %uniquePlayerCount% | Server started <t:%serverStartedTime%:R> | The server is created <t:1674147600:R> | Last updated: <t:%lastUpdateTime%:R>",
+    "onlineChannelTopicForMultiServer": ""
+  },
+  "latestVersion": "2.1.3",
+  "latestCheckTime": 1679243444445
+}
